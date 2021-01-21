@@ -1,25 +1,78 @@
 body {
-    height: 500px;
+  height: 561px;
+  background-image: linear-gradient(rgb(245 231 231 / 0%), rgb(180 104 81));
+  color: rgb(114 57 40);
+  font-family: cursive;
+  font-size: 15px;
 }
 
-#mycard {
-  background-color: lightgrey;
-  width: 400px;
-  height: 400px;
-  border: 15px solid green;
+h1 {
+  text-align: center;
+}
+h4 {
+  margin-left: 45px;
+}
+
+.myphoto {
+  height: 200px;
+  width: 176px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  filter: drop-shadow(2px 4px 6px #714032);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
   border-radius: 20px;
-  /* margin: auto;
-  height: 272px;
-  border-radius: 20px; */
+  background-color: #a47c79;
+  box-shadow: 3px 3px 3px #714032;
 }
 
-.parent {
-    position: relative;
+.card-parent {
+  position: relative;
 }
 
-.child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -200px;
+.card-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 375px;
+  height: 459px;
+  margin: -229px 0 0 -187px;
+}
+
+.contact-ul {
+  list-style-type: none;
+}
+.contact-li {
+  padding: -1px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(114 57 40);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
 }
