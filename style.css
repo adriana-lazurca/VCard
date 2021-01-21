@@ -1,6 +1,8 @@
 body {
-  height: 561px;
-  background-image: linear-gradient(rgb(245 231 231 / 0%), rgb(180 104 81));
+  background-image: linear-gradient(
+    rgb(245 231 231 / 0%),
+    rgb(180 104 81 / 33%)
+  );
   color: rgb(114 57 40);
   font-family: cursive;
   font-size: 15px;
